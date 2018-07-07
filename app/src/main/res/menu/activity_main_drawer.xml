@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/nav_news"
+            android:title="@string/home"/>
+        <item
+            android:id="@+id/nav_mzitu"
+            android:icon="@drawable/nav_girl"
+            android:title="@string/mzitu"/>
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/nav_personal_report"
+            android:title="@string/personal_report"/>
+    </group>
+
+    <!--<item android:title="@string/account">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_favorite"-->
+                <!--android:icon="@drawable/nav_favorite"-->
+                <!--android:title="@string/favorite"/>-->
+        <!--</menu>-->
+    <!--</item>-->
+
+    <!--<item android:title="@string/system">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_settings"-->
+                <!--android:icon="@drawable/nav_settings"-->
+                <!--android:title="@string/settings"/>-->
+        <!--</menu>-->
+    <!--</item>-->
+</menu>
